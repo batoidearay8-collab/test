@@ -1,0 +1,57 @@
+{
+  "title": "Map Site",
+  "subtitle": "",
+  "template": "event",
+  "mode": "outdoor",
+  "titleI18n": {
+    "en": "Map Site"
+  },
+  "subtitleI18n": {
+    "ja": "",
+    "en": ""
+  },
+  "i18n": {
+    "defaultLang": "ja",
+    "supportedLangs": [
+      "ja",
+      "en"
+    ]
+  },
+  "ui": {
+    "tabTitle": "AtlasKobo — 地図サイト制作キット",
+    "themePreset": "blue"
+  },
+  "theme": "dark",
+  "reco": {
+    "needs": [],
+    "rules": {}
+  },
+  "privacy": {
+    "stripImageMetadata": true,
+    "roundOutdoorLatLngDecimals": 5,
+    "hideExactOutdoorLocationByDefault": false
+  },
+  "research": {
+    "enabled": false,
+    "surveyUrl": "",
+    "projectName": "",
+    "contactEmail": "",
+    "collectLogs": false,
+    "logEndpoint": ""
+  },
+  "outdoor": {
+    "center": [
+      35.681236,
+      139.767125
+    ],
+    "zoom": 15
+  },
+  "indoor": {
+    "imageUrl": "/assets/floor.png",
+    "imageWidthPx": 2000,
+    "imageHeightPx": 1200,
+    "minZoom": -2,
+    "maxZoom": 2,
+    "floors": []
+  }
+}

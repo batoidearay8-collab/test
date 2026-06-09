@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>AtlasKobo — 地図サイト制作キット</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./theme.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <img
+        class="logo"
+        src="./logo.png"
+        alt="logo"
+        onerror="if(!this.dataset.triedBrand){this.dataset.triedBrand='1';this.src='./brand/logo.png';}else if(!this.dataset.triedSvg){this.dataset.triedSvg='1';this.src='./brand/logo.svg';}else{this.style.display='none';}"
+      />
+      <div class="titles">
+        <div class="title" id="siteTitle">Map Site</div>
+        <div class="subtitle" id="siteSubtitle"></div>
+      </div>
+      <button class="iconbtn" id="copyUrl" type="button" aria-label="copy url" title="Copy URL">🔗</button>
+      <button class="iconbtn" id="nativeShare" type="button" aria-label="share" title="Share">📤</button>
+      <button class="iconbtn" id="openOnlyToggle" type="button" aria-label="open only" title="Open now">🟢</button>
+      <button class="iconbtn" id="mapOnlyToggle" type="button" aria-label="map only" title="Map only">🗺️</button>
+      <button class="iconbtn" id="themeToggle" type="button" aria-label="toggle theme">🌓</button>
+    </header>
+
+    <main class="main">
+      <div class="controls">
+        <select id="langSelect" aria-label="language"></select>
+        <input id="searchInput" type="search" placeholder="Search" />
+      </div>
+      <div id="chips" class="chips"></div>
+      <div id="recoSection" class="recoSection" style="display:none"></div>
+      <div id="map" class="map"></div>
+      <div id="list" class="list"></div>
+    </main>
+
+    <div id="sheet" class="sheet hidden" role="dialog" aria-modal="true">
+      <div class="sheetBackdrop" id="sheetBackdrop"></div>
+      <div class="sheetCard">
+        <div class="sheetHeader">
+          <div class="sheetTitle" id="sheetTitle"></div>
+          <button class="iconbtn" id="sheetClose" type="button" aria-label="close">✕</button>
+        </div>
+        <div class="sheetBody" id="sheetBody"></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

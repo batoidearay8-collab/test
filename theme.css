@@ -1,0 +1,14 @@
+:root{
+  --accent:#9eb4d4;
+  --accent-soft:#9eb4d433;
+  --accent-dim:#9eb4d41a;
+  --gold:#9eb4d4;
+  --focusRing:#9eb4d44d;
+}
+:root[data-theme="light"]{
+  --accent:#3d5a85;
+  --accent-soft:#3d5a8530;
+  --accent-dim:#3d5a851a;
+  --gold:#3d5a85;
+  --focusRing:#3d5a854d;
+}

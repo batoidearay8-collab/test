@@ -1,0 +1,47 @@
+[
+  {
+    "category": "食べ物",
+    "icon": "🍔",
+    "order": 1,
+    "label": "Food",
+    "labelI18n": {},
+    "markerType": "badge",
+    "markerColor": "#ff6b6b"
+  },
+  {
+    "category": "展示",
+    "icon": "🎨",
+    "order": 2,
+    "label": "Exhibits",
+    "labelI18n": {},
+    "markerType": "pin",
+    "markerColor": "#6ea8fe"
+  },
+  {
+    "category": "ステージ",
+    "icon": "🎤",
+    "order": 3,
+    "label": "Stage",
+    "labelI18n": {},
+    "markerType": "flag",
+    "markerColor": "#f0ad4e"
+  },
+  {
+    "category": "トイレ",
+    "icon": "🚻",
+    "order": 4,
+    "label": "Toilet",
+    "labelI18n": {},
+    "markerType": "square",
+    "markerColor": "#5cb85c"
+  },
+  {
+    "category": "休憩",
+    "icon": "🪑",
+    "order": 5,
+    "label": "Rest",
+    "labelI18n": {},
+    "markerType": "ring",
+    "markerColor": "#20c997"
+  }
+]
