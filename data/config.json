@@ -1,10 +1,10 @@
 {
-  "title": "Map Site",
-  "subtitle": "",
-  "template": "event",
-  "mode": "outdoor",
+  "title": "庄総祭マップ",
+  "subtitle": "庄内総合高校の文化祭マップ",
+  "template": "school_festival",
+  "mode": "indoor",
   "titleI18n": {
-    "en": "Map Site"
+    "en": "New map"
   },
   "subtitleI18n": {
     "ja": "",
@@ -18,8 +18,8 @@
     ]
   },
   "ui": {
-    "tabTitle": "AtlasKobo — 地図サイト制作キット",
-    "themePreset": "blue"
+    "tabTitle": "庄総祭マップ",
+    "themePreset": "purple"
   },
   "theme": "dark",
   "reco": {
@@ -49,9 +49,34 @@
   "indoor": {
     "imageUrl": "/assets/floor.png",
     "imageWidthPx": 2000,
-    "imageHeightPx": 1200,
+    "imageHeightPx": 1400,
     "minZoom": -2,
     "maxZoom": 2,
-    "floors": []
+    "floors": [
+      {
+        "id": "1F",
+        "label": "1F",
+        "labelI18n": {},
+        "imageUrl": "/assets/floor_1F_floor.png",
+        "imageWidthPx": 2000,
+        "imageHeightPx": 1400
+      },
+      {
+        "id": "2F",
+        "label": "2F",
+        "labelI18n": {},
+        "imageUrl": "/assets/floor_2F_floor.png",
+        "imageWidthPx": 2000,
+        "imageHeightPx": 1400
+      },
+      {
+        "id": "3F",
+        "label": "3F",
+        "labelI18n": {},
+        "imageUrl": "/assets/floor_3F_floor.png",
+        "imageWidthPx": 2000,
+        "imageHeightPx": 1400
+      }
+    ]
   }
 }

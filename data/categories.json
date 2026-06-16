@@ -1,47 +1,167 @@
 [
   {
-    "category": "食べ物",
-    "icon": "🍔",
+    "category": "general",
+    "label": "一般",
+    "labelI18n": {
+      "en": "General"
+    },
+    "icon": "📍",
     "order": 1,
-    "label": "Food",
-    "labelI18n": {},
-    "markerType": "badge",
-    "markerColor": "#ff6b6b"
-  },
-  {
-    "category": "展示",
-    "icon": "🎨",
-    "order": 2,
-    "label": "Exhibits",
-    "labelI18n": {},
     "markerType": "pin",
-    "markerColor": "#6ea8fe"
+    "markerColor": "#d4b87a"
   },
   {
-    "category": "ステージ",
-    "icon": "🎤",
+    "category": "stage",
+    "label": "ステージ",
+    "labelI18n": {
+      "en": "Stage"
+    },
+    "icon": "🎭",
+    "order": 2,
+    "markerType": "pin",
+    "markerColor": "#e74c3c"
+  },
+  {
+    "category": "exhibit",
+    "label": "教室企画",
+    "labelI18n": {
+      "en": "Classroom"
+    },
+    "icon": "🏫",
     "order": 3,
-    "label": "Stage",
-    "labelI18n": {},
-    "markerType": "flag",
-    "markerColor": "#f0ad4e"
+    "markerType": "pin",
+    "markerColor": "#9b59b6"
   },
   {
-    "category": "トイレ",
-    "icon": "🚻",
+    "category": "food",
+    "label": "模擬店",
+    "labelI18n": {
+      "en": "Food stall"
+    },
+    "icon": "🍴",
     "order": 4,
-    "label": "Toilet",
-    "labelI18n": {},
-    "markerType": "square",
-    "markerColor": "#5cb85c"
+    "markerType": "pin",
+    "markerColor": "#e67e22"
   },
   {
-    "category": "休憩",
-    "icon": "🪑",
+    "category": "reception",
+    "label": "受付",
+    "labelI18n": {
+      "en": "Reception"
+    },
+    "icon": "📍",
     "order": 5,
-    "label": "Rest",
-    "labelI18n": {},
-    "markerType": "ring",
-    "markerColor": "#20c997"
+    "markerType": "pin",
+    "markerColor": "#16a085"
+  },
+  {
+    "category": "entrance",
+    "label": "入退口",
+    "labelI18n": {
+      "en": "Entrance"
+    },
+    "icon": "🚪",
+    "order": 6,
+    "markerType": "pin",
+    "markerColor": "#34495e"
+  },
+  {
+    "category": "toilet",
+    "label": "トイレ",
+    "labelI18n": {
+      "en": "Toilet"
+    },
+    "icon": "🚻",
+    "order": 7,
+    "markerType": "pin",
+    "markerColor": "#95a5a6"
+  },
+  {
+    "category": "firstaid",
+    "label": "救護室",
+    "labelI18n": {
+      "en": "First aid"
+    },
+    "icon": "🏥",
+    "order": 8,
+    "markerType": "pin",
+    "markerColor": "#e74c3c"
+  },
+  {
+    "category": "parking",
+    "label": "駐車場",
+    "labelI18n": {
+      "en": "Parking"
+    },
+    "icon": "🅿️",
+    "order": 9,
+    "markerType": "pin",
+    "markerColor": "#3498db"
+  },
+  {
+    "category": "stairs",
+    "label": "階段",
+    "labelI18n": {
+      "en": "Stairs"
+    },
+    "icon": "🪜",
+    "order": 10,
+    "markerType": "pin",
+    "markerColor": "#7f8c8d"
+  },
+  {
+    "category": "elevator",
+    "label": "EV",
+    "labelI18n": {
+      "en": "Elevator"
+    },
+    "icon": "🛗",
+    "order": 11,
+    "markerType": "pin",
+    "markerColor": "#7f8c8d"
+  },
+  {
+    "category": "避難所",
+    "label": "避難所",
+    "labelI18n": {
+      "en": "Shelter"
+    },
+    "icon": "🏫",
+    "order": 12,
+    "markerType": "pin",
+    "markerColor": "#2ecc71"
+  },
+  {
+    "category": "AED",
+    "label": "AED",
+    "labelI18n": {
+      "en": "AED"
+    },
+    "icon": "❤️",
+    "order": 13,
+    "markerType": "pin",
+    "markerColor": "#e74c3c"
+  },
+  {
+    "category": "給水所",
+    "label": "給水所",
+    "labelI18n": {
+      "en": "Water station"
+    },
+    "icon": "💧",
+    "order": 14,
+    "markerType": "pin",
+    "markerColor": "#3498db"
+  },
+  {
+    "category": "医療",
+    "label": "医療",
+    "labelI18n": {
+      "en": "Medical"
+    },
+    "icon": "🏥",
+    "order": 15,
+    "markerType": "pin",
+    "markerColor": "#e74c3c"
   }
 ]
