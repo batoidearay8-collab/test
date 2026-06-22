@@ -25,6 +25,8 @@
     "category": "general",
     "image": "",
     "url": "",
+    "hours": "",
+    "closed": "",
     "nameI18n": {},
     "descriptionI18n": {},
     "lat": 35.68076,
@@ -42,6 +44,8 @@
     "category": "general",
     "image": "",
     "url": "",
+    "hours": "",
+    "closed": "",
     "nameI18n": {},
     "descriptionI18n": {},
     "lat": 35.6816,
@@ -59,12 +63,16 @@
     "category": "general",
     "image": "",
     "url": "",
+    "hours": "",
+    "closed": "",
     "nameI18n": {},
     "descriptionI18n": {},
     "lat": 35.681,
     "lng": 139.76761,
     "x": 0.35,
     "y": 0.7583,
-    "floor": "1F"
+    "floor": "1F",
+    "connectorType": "",
+    "connectorGroup": ""
   }
 ]

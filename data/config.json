@@ -57,7 +57,7 @@
         "id": "1F",
         "label": "1F",
         "labelI18n": {},
-        "imageUrl": "/assets/floor_1F_floor.png",
+        "imageUrl": "/assets/floor_1F_floor_1F_floor.png",
         "imageWidthPx": 2000,
         "imageHeightPx": 1400
       },
@@ -65,7 +65,7 @@
         "id": "2F",
         "label": "2F",
         "labelI18n": {},
-        "imageUrl": "/assets/floor_2F_floor.png",
+        "imageUrl": "/assets/floor_2F_floor_2F_floor.png",
         "imageWidthPx": 2000,
         "imageHeightPx": 1400
       },
@@ -73,7 +73,7 @@
         "id": "3F",
         "label": "3F",
         "labelI18n": {},
-        "imageUrl": "/assets/floor_3F_floor.png",
+        "imageUrl": "/assets/floor_3F_floor_3F_floor.png",
         "imageWidthPx": 2000,
         "imageHeightPx": 1400
       }
