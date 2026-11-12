@@ -1,10 +1,10 @@
 {
-  "title": "庄総祭",
-  "subtitle": "庄内総合高校文化祭",
+  "title": "Map Site",
+  "subtitle": "",
   "template": "event",
-  "mode": "indoor",
+  "mode": "outdoor",
   "titleI18n": {
-    "en": "New map"
+    "en": "Map Site"
   },
   "subtitleI18n": {
     "ja": "",
@@ -18,7 +18,7 @@
     ]
   },
   "ui": {
-    "tabTitle": "庄総祭マップ",
+    "tabTitle": "AtlasKobo — 地図サイト制作キット",
     "themePreset": "blue"
   },
   "theme": "dark",
@@ -52,23 +52,6 @@
     "imageHeightPx": 1200,
     "minZoom": -2,
     "maxZoom": 2,
-    "floors": [
-      {
-        "id": "1F",
-        "label": "1F",
-        "labelI18n": {},
-        "imageUrl": "/assets/floor_1F_1floor.png",
-        "imageWidthPx": 223,
-        "imageHeightPx": 655
-      },
-      {
-        "id": "2F",
-        "label": "2F",
-        "labelI18n": {},
-        "imageUrl": "/assets/floor_2F_2floor.png",
-        "imageWidthPx": 204,
-        "imageHeightPx": 708
-      }
-    ]
+    "floors": []
   }
 }
